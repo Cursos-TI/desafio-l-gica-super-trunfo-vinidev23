@@ -27,6 +27,14 @@ int main() {
         printf("\n");
     }
 
+    printf("--- Dados dos Territorios Cadastrados ---\n\n");
+    for (i = 0; i < 5; i++) {
+        printf("Territorio %d\n", i + 1);
+        printf("Nome: %s\n", lista_de_territorios[i].nome);
+        printf("Cor do exercito: %s\n", lista_de_territorios[i].cor);
+        printf("Tropas: %d\n", lista_de_territorios[i].tropas);
+        printf("----------------------------------------\n");
+    }
 
     return 0;
 }
